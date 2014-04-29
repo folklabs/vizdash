@@ -1,0 +1,23 @@
+.hero-unit
+  / %h1 'Allo, 'Allo!
+  / %p You now have
+  / %ul
+  /   %li{"ng-repeat"=>"thing in awesomeThings"}
+  /     {{thing}}
+  / %p installed.
+  / %h3 Enjoy coding! - Yeoman
+
+  .ov-gridster
+    .grid{'gridster'=>'gridsterOpts'}
+      %ul
+        %li.gr.panel.panel-default{'gridster-item'=>"item", 'ng-repeat'=>"item in standardItems"}
+          #vizshare{'vizdash-item'=>'item'}
+          / %vizdash-item
+
+
+  / .gridster
+  /   %ul
+  /     %li.gr.panel.panel-default{"data-row" => '1', "data-col" => '1', "data-sizex" => '1', "data-sizey" => '1'}
+  /     %li.gr.panel.panel-default{"data-row" => '2', "data-col" => '1', "data-sizex" => '1', "data-sizey" => '1'}
+  /     %li.gr.panel.panel-default{"data-row" => '1', "data-col" => '2', "data-sizex" => '1', "data-sizey" => '1'}
+  /     %li.gr.panel.panel-default{"data-row" => '2', "data-col" => '2', "data-sizex" => '1', "data-sizey" => '1'}
